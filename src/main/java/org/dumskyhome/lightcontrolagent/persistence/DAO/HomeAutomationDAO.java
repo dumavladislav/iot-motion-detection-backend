@@ -1,6 +1,5 @@
 package org.dumskyhome.lightcontrolagent.persistence.DAO;
 
-import org.dumskyhome.lightcontrolagent.MQTT.MqttAgent;
 import org.dumskyhome.lightcontrolagent.persistence.datamodel.Device;
 import org.dumskyhome.lightcontrolagent.persistence.datamodel.HaEvent;
 import org.dumskyhome.lightcontrolagent.persistence.datamodel.Location;
@@ -24,8 +23,8 @@ public class HomeAutomationDAO {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HomeAutomationDAO.class);
 
-    @Autowired
-    private MqttAgent mqttAgent;
+//    @Autowired
+//    private MqttAgent mqttAgent;
 
     @Autowired
     private EventsRepository eventsRepository;
